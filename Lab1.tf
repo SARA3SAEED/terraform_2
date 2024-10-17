@@ -209,7 +209,7 @@ resource "alicloud_instance" "node1" {
   internet_charge_type       = "PayByTraffic"
   instance_charge_type      = "PostPaid"
   key_name                   = alicloud_ecs_key_pair.publickey.key_pair_name
-  user_data = base64encode(file("dock.sh"))
+  user_data                 = base64encode(file("dock.sh"))
 }
 
 

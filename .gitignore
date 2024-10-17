@@ -5,12 +5,4 @@
 .terraform.tfstate
 .terraform.tfstate.backup
 .terraform.lock.hcl
-
-ip
-.terraform.lock.hcl
-key2.pem
-terraform.tfstate
-terraform.tfstate.backup
-.terraform/providers/registry.terraform.io/hashicorp/alicloud/1.231.0/darwin_amd64/terraform-provider-alicloud_v1.231.0
-.env
-.env
+.variables.tf
